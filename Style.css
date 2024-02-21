@@ -1,0 +1,15 @@
+.titulo{
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 800%;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+      float: left;
+      text-align: center;
+      margin-bottom: 1%;
+      margin-left: 25%;
+      margin-right: 20%;
+  }
