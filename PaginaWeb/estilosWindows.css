@@ -1,0 +1,83 @@
+.titulo{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 60px;
+}
+  
+.body{
+      font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #2d3b46;
+    font-size: xx-large;
+}
+a{
+    color: #ffffff;
+}
+  
+.grid-layout{
+      display: grid;
+      grid-template-columns: 22% 40% 40%;
+      grid-template-rows: 7% 20% 70%;
+      /*justify-content: center;*/
+      width: 1800px;
+      height: 800px;
+      margin: 0;
+      padding: 20px;
+}
+  
+.caja2{
+    grid-column: 2/4;
+    grid-row: 2/4;
+    background-color: #ffffff;
+    background-image: url(Imagenes/LogoWindows2.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    font-size: 55%;
+    padding-left: 2%;
+      
+}
+.caja2 .texto{
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 17%;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+  
+.caja3{
+      grid-column: 1;
+      grid-row: 2/4;
+      background-color: #394b58;
+      font-size: 20px;
+      color: #ffffff;
+}
+  
+.volver{
+    text-align: center;
+    margin-top: 90%;
+    font-size: large;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 60px;
+    text-decoration: none;
+}
+
+#imgHab{
+    width: 1000px;
+    height: 600px;
+}
+
+#imgLinux{
+    width: 1000px;
+    height: 600px;
+}
